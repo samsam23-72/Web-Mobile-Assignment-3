@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment # 2</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <center><img src="https://dmhqppb4umb6.cloudfront.net/saylani-logo.png">
+        <h1>STUDENT REGISTRATION FORM</h1></center>
+    
+        <table align="center" cellpadding="10">
+            <form action="end.html" method="GET">
+
+            <tr>
+                <td><label for="username">FIRST NAME:</label></td>
+                <td> <input type="text" size="20" placeholder="Enter your F.name" maxlength="30">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label for="username">LAST NAME:</label></td>
+                <td> <input type="text" size="20" placeholder="Enter your L.name" maxlength="30">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                 <td><select name="Date Of Birth">
+                 <option value="Day">Day</option>
+                </select>
+                 <select name="Date Of Birth">
+                 <option value="Month">Month</option>
+                 </select>
+                 <select name="Date Of Birth">
+                 <option value="Year">Year</option>
+                 </td>
+                </select>
+            </tr>
+
+            <tr>
+                <td>EMAIL ID</td>
+                <td> <input type="email" size="20" placeholder="Enter your Email" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>MOBILE NUMBER</td>
+                <td> <input type="number" size="20" placeholder="Enter your number" maxlength="30">(10 digit number)</td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td> Male<input type="radio" id="Male">
+                Female<input type="radio" id="Female"></td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td> <textarea cols="36.5" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td> <input type="text" size="20" placeholder="Enter your City" maxlength="30"> (max 30 characters a-z & A-Z)</td>
+            </tr>
+            <tr>
+                <td>PIN CODE </td>
+                <td> <input type="number" size="20" placeholder="Enter your Pin Code" maxlength="30"> (6 digit number)</td>
+            </tr>
+            <tr>
+                <td>STATE </td>
+                <td> <input type="text" size="20" placeholder="Enter your State" maxlength="30"> (max 30 characters a-z & A-Z)</td>
+            </tr>
+            <tr>
+                <td>COUNTRY </td>
+                <td> <input type="text" size="20" placeholder="Enter you Country" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td>
+                 Drawing<input type="checkbox" id="Drawing"> 
+                 Dancing<input type="checkbox" id="Dancing"> 
+                 Singing<input type="checkbox" id="Singing"> 
+                 Sketching<input type="checkbox" id="Sketching"> <br>
+                 others<input type="checkbox" id="others"> 
+                 <textarea cols="24.5" rows="1.5"></textarea>
+                </td>
+                <tr>
+                <th>QULAIFICATION</th><br><th align="center"> S.No.  Examinations</th>
+                <th>Board </th>
+                <th>Percentage </th>
+                <th>Year Of Passing </th>
+                </tr>
+                <tr>
+                    <td> </td> 
+                    <td align="center">  1. Class X</td>
+                    <td> <input cols="24.5" rows="4"></td>
+                    <td> <input cols="24.5" rows="4"></td>
+                    <td> <input cols="24.5" rows="4"></td>
+                </tr>
+                <tr>
+                    <td> </td> 
+                    <td align="center">  2. Class XII</td>
+                    <td> <input cols="24.5" rows="4"></td>
+                    <td> <input cols="24.5" rows="4"></td>
+                    <td> <input cols="24.5" rows="4"></td>
+                </tr>
+                <tr>
+                    <td> </td> 
+                    <td align="center">  3. Graduation</td>
+                    <td> <input cols="24.5" rows="4"></td>
+                    <td> <input cols="24.5" rows="4"></td>
+                    <td> <input cols="24.5" rows="4"></td>
+                </tr>
+           
+                <tr>
+                    <td> </td> 
+                    <td align="center">  4. Masters</td>
+                    <td> <input cols="24.5" rows="4"><br>(10 chrac max)</td>
+                    <td> <input cols="24.5" rows="4"><br>(upto 2 decimal)</td>
+                    <td> <input cols="24.5" rows="4"></td>
+                </tr>
+
+                <tr>
+                    <td>COURSES <br> APPLIED FOR</td>
+                    <td>
+                     B.Sc<input type="radio" id="B.Sc">
+                    B.Com<input type="radio" id="B.Com">
+                    B.A<input type="radio" id="B.A">
+                    BCA<input type="radio" id="BCA">
+
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2.75" align="right">
+                       <input type="submit" formaction="thankyou.html">
+                       <input type="reset" value="Reset">
+                     </td>
+                </tr>
+            </form>
+        </table>
+</body>
